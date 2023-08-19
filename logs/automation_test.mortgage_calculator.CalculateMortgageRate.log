@@ -1,0 +1,26 @@
+[2023-08-19T10:15:42,374][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 27712 (auto-detected)
+[2023-08-19T10:15:42,378][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+[2023-08-19T10:15:42,378][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+[2023-08-19T10:15:42,532][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2023-08-19T10:15:42,533][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[2023-08-19T10:15:42,546][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:01 (auto-detected)
+[2023-08-19T10:15:44,344][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.initialSeedUniquifier: 0xc1baba320b4b49b7
+[2023-08-19T10:15:53,807][INFO ][TestNG-test=mortgage_calculator-1] -----Test: automation_test.mortgage_calculator.CalculateMortgageRate-------
+[2023-08-19T10:15:53,809][DEBUG][TestNG-test=mortgage_calculator-1] Opening the URL: https://www.mortgagecalculator.org/
+[2023-08-19T10:18:33,906][DEBUG][TestNG-test=mortgage_calculator-1] Typing Home Value: 300000
+[2023-08-19T10:18:34,234][DEBUG][TestNG-test=mortgage_calculator-1] clicking the $ radio button
+[2023-08-19T10:18:34,353][DEBUG][TestNG-test=mortgage_calculator-1] Typing DownPayment Value: 60000
+[2023-08-19T10:18:34,518][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan amount Value: 240000
+[2023-08-19T10:18:34,649][DEBUG][TestNG-test=mortgage_calculator-1] Typing Interest Rate Value: 3
+[2023-08-19T10:18:34,754][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan Term years: 30
+[2023-08-19T10:18:34,846][DEBUG][TestNG-test=mortgage_calculator-1] Select the start date month: Sep
+[2023-08-19T10:18:34,948][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan start year: 2023
+[2023-08-19T10:18:35,068][DEBUG][TestNG-test=mortgage_calculator-1] Typing the property tax: 5000
+[2023-08-19T10:18:35,163][DEBUG][TestNG-test=mortgage_calculator-1] Typing the PMI: 0.5
+[2023-08-19T10:18:35,343][DEBUG][TestNG-test=mortgage_calculator-1] Typing the Home Owner Insurance: 1000
+[2023-08-19T10:18:35,495][DEBUG][TestNG-test=mortgage_calculator-1] Typing the Monthly HOA: 100
+[2023-08-19T10:18:35,612][DEBUG][TestNG-test=mortgage_calculator-1] Select the Loan type
+[2023-08-19T10:18:35,714][DEBUG][TestNG-test=mortgage_calculator-1] Select the Buy or Refi
+[2023-08-19T10:18:35,797][DEBUG][TestNG-test=mortgage_calculator-1] clicking the Calculate button
+[2023-08-19T10:18:37,408][DEBUG][TestNG-test=mortgage_calculator-1] Validating total Monthly Payment: 1,611.85
+[2023-08-19T10:18:43,821][INFO ][TestNG-test=mortgage_calculator-1] -----Test End: automation_test.mortgage_calculator.CalculateMortgageRate-------
